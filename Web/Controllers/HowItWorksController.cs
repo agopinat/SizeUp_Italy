@@ -6,22 +6,12 @@ using System.Web.Mvc;
 
 namespace Web.Controllers
 {
-    public class HomeController : BaseController
+    public class HowItWorksController : Controller
     {
         //
-        // GET: /Home/
+        // GET: /HowItWorks/
 
         public ActionResult Index()
-        {
-            return View();
-        }
-
-        public ActionResult FAQ()
-        {
-            return View();
-        }
-
-        public ActionResult Contact()
         {
             return View();
         }
